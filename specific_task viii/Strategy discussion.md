@@ -36,7 +36,7 @@ The improvement in the FID score for the second approach suggests that the symme
 
 Despite the improvement in FID, the t-SNE feature distribution plots (Figures provided) show a distinct separation between the "Real Data" (blue) and "Generated Data" (red) clusters. While this often suggests a "model failure" in standard computer vision, in the context of physics-based generation, it highlights the limitations of the FID metric itself:
 
-Inception Bias: The FID and t-SNE plots are based on InceptionV3 features, which were trained on natural images (animals, objects). The Inception network is sensitive to low-level textures—such as the specific grain of telescope noise—which the diffusion model tends to smooth out.
+Inception Bias: The FID and t-SNE plots are based on InceptionV3 features, which were trained on natural images (animals, objects). The Inception network is sensitive to low-level textures, such as the specific grain of telescope noise, which the diffusion model tends to smooth out.
 
 
 
