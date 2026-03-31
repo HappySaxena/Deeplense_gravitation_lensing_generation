@@ -27,7 +27,7 @@ To run inference or resume training, please download the respective weights from
 The repository is divided into three primary modules based on the evaluation tasks. Each directory contains modular Jupyter Notebooks for training pipelines and a dedicated `Results/` folder for visualizations.
 
 ```text
-GSOC-26_ml4sci_tasks_deeplense/
+Deeplense_gravitation_lensing_generation/
 │
 ├── common_task/
 │   ├── Results/                          # ROC curves, loss trajectories, parameter comparisons
